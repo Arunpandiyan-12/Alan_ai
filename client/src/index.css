@@ -1,0 +1,16 @@
+#root, html, body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom,lightblue,white,violet );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
