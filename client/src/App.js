@@ -86,7 +86,7 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      key: "3d66fb8f8adca472ac09f1addc21bd102e956eca572e1d8b807a3e2338fdd0dc/stage",
+      key: "*************",
       onCommand: ({ command, articles, number }) => {
         if (command === "newHeadlines") {
           setNewsArticles(articles);
@@ -144,7 +144,7 @@ const App = () => {
         <Footer>
           <Typography variant="body1" component="h2">
             Created by
-            <Link href="https://github.com/UdayAI2020">
+            <Link href="https://github.com/Arunpandiyan-12">
               {" "}
             @Arun Pandiyan
             </Link>
